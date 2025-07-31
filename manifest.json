@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Random Number Generator",
+  "description": "Generate a random number on Chrome",
+  "version": "0.2",
+  "action": {
+    "default_popup": "randomgen.html",
+    "default_icon": "128.png"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
